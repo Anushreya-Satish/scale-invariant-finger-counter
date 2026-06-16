@@ -1,0 +1,36 @@
+# 🖐️ Real-Time Scale-Invariant Finger Counter
+
+A robust, real-time computer vision application that detects hand landmarks and accurately counts extended fingers using MediaPipe and OpenCV. This project features a custom distance-scaling algorithm that makes thumb tracking invariant to hand distance, rotation, or camera mirroring.
+
+## 🚀 Features
+* **Distance-Invariant Tracking:** Uses Euclidean distance ratios between the thumb tip and pinky base to ensure accurate tracking regardless of proximity to the webcam.
+* **Real-time Performance:** Low-latency hand landmark mapping powered by MediaPipe.
+* **Clean Visual Overlay:** Displays a live skeletal mesh and a dynamic on-screen counter interface.
+
+## 🛠️ Built With
+* Python 3.12
+* OpenCV (Computer Vision Library)
+* MediaPipe (Google's Open-Source ML Framework)
+
+## 📦 Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+   cd YOUR_REPO_NAME
+
+2. **Create and activate a virtual environment (Python 3.12 recommended):**
+    ```bash
+    py -3.12 -m venv env
+    env\Scripts\activate
+
+3. **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+
+## 🎮 Usage
+
+1. **Run the main script to launch the application:**
+    ```bash
+    python app.py
+* Press the Spacebar while focusing on the camera window to safely exit the application.
