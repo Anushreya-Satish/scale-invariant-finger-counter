@@ -30,7 +30,19 @@ A robust, real-time computer vision application that detects hand landmarks and 
 
 ## 🎮 Usage
 
-1. **Run the main script to launch the application:**
+**Run the main script to launch the application:**
     ```bash
     python app.py
 * Press the Spacebar while focusing on the camera window to safely exit the application.
+
+---
+
+## 📜 License
+This project is open-source and available under the [MIT License](LICENSE). Feel free to fork, modify, and use it for your own directory cleanup needs!
+
+---
+
+<p align="center">
+  🚀 <b>Built by a junior polyglot</b><br>
+  <sub>Learning & Embarking on new Endeavours</sub>
+</p>
