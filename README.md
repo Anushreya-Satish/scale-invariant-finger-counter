@@ -16,8 +16,8 @@ A robust, real-time computer vision application that detects hand landmarks and 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-   cd YOUR_REPO_NAME
+   git clone https://github.com/anushreya-satish/scale-invariant-finger-counter.git
+   cd scale-invariant-finger-counter
 
 2. **Create and activate a virtual environment (Python 3.12 recommended):**
     ```bash
